@@ -5,6 +5,7 @@ A comprehensive data analysis project exploring Netflix's content catalog using 
 ## 📊 Project Overview
 
 This analysis explores Netflix's content dataset to uncover insights about:
+
 - Distribution of Movies vs TV Shows
 - Top content-producing countries
 - Content rating distributions
@@ -40,24 +41,30 @@ netflix/
 ## 🔍 Analysis Highlights
 
 ### 1. Data Preprocessing
+
 - Handled missing values in country and rating columns
 - Converted date_added to datetime format for temporal analysis
 - Cleaned and processed categorical data
 
 ### 2. Content Type Analysis
+
 - **Movies vs TV Shows Distribution**: Visual comparison of content types available on Netflix
 
 ### 3. Geographic Analysis
+
 - **Top 10 Content Producing Countries**: Identified countries with the highest Netflix content contribution
 - **Interactive World Map**: Geographic visualization showing Netflix content distribution globally
 
 ### 4. Content Rating Analysis
+
 - **Rating Distribution**: Analysis of content ratings (G, PG, PG-13, R, etc.) across Netflix catalog
 
 ### 5. Genre Analysis
+
 - **Top 10 Genres**: Most popular content genres on Netflix platform
 
 ### 6. Industry Analysis
+
 - **Top 10 Directors**: Directors with the most Netflix titles
 - **Top 10 Actors**: Most frequently appearing actors in Netflix content
 
@@ -72,11 +79,13 @@ netflix/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 ```bash
 pip install pandas numpy matplotlib seaborn plotly
 ```
 
 ### Running the Analysis
+
 1. Clone this repository
 2. Ensure `Netflix.csv` is in the project directory
 3. Open `netflixanalysis.ipynb` in Jupyter Notebook or VS Code
@@ -85,6 +94,7 @@ pip install pandas numpy matplotlib seaborn plotly
 ## 📊 Dataset Information
 
 The analysis uses a Netflix dataset (`Netflix.csv`) containing information about:
+
 - Show/Movie titles
 - Content type (Movie/TV Show)
 - Director and cast information
@@ -98,6 +108,7 @@ The analysis uses a Netflix dataset (`Netflix.csv`) containing information about
 ## 🎯 Key Insights
 
 The analysis reveals important patterns in Netflix's content strategy, including:
+
 - Content distribution across different regions
 - Popular genres and rating preferences
 - Prolific content creators in the Netflix ecosystem
